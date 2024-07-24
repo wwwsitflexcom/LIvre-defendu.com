@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Livre / d&eacutefendu</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="corps2">
+    <nav class="navi">
+        <h1>page</h1>
+        <a href="index.html">Accueil</a>
+        <a href="romans.html">Romans</a>
+    </nav>
+        <!--partie message contact-->
+        <section class="contact-section">
+            <div class="contact-intro">
+              <h2 class="contact-title">Recharge</h2>
+              <p class="contact-description">
+                C'est un site en construction si tu es la c'est parce t'aimes lire<br>
+                Pour ton r&eacute;compensseRemplissez ce formulaire pour Beneficier d'un recharge<br>
+                <B>MERCI </B>
+              </p>
+            </div>
+          
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          
+              <input type="hidden" name="apikey" value="2aa75f12-b10e-4e59-963f-abba14428796" />
+              <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+              <input type="hidden" name="from_name" value="My Website" />
+              <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+          
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="name" class="form-label">Nom</label>
+                  <input id="name" name="name" class="form-input" placeholder="Ton nom" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input id="email" name="email" class="form-input" placeholder="Ton address email" type="email" />
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-textarea" id="message" name="message" placeholder="Ton message"></textarea>
+                </div>
+              </div>
+              <button class="form-submit" type="submit">Envoyez le message</button>
+            </form>
+          
+          </section>
+</body>
+</html>
