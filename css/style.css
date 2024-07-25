@@ -14,15 +14,21 @@ body{
 /*disagn boit div 1 page 1*/
 .boite1{
     text-align: center;
-    flex-grow: 1;
     color:rgba(234, 239, 241, 0.918);
+    background-color:#cdcbdd00;
+    background-size:cover;
+    height:100%;
+
+}
+.titre1{
+    margin-top:70%;
 }
 
 
 /*disagn boit 2 page  1*/
 
 .navi{
-  background-color:rgb(107 114 128);;
+  background-color:(218,224,235);
   text-align: center;
   margin: 0px;
   border-radius: 40px;
@@ -30,9 +36,6 @@ body{
 a{
 font-size: 1.5rem;
 
-}
-.boite1{
-    padding-top: 350px;
 }
 
 /*disagne ensemble des lien page 1*/
@@ -63,12 +66,12 @@ li{
 
 /* disagne de liens page 1*/
 a{
-    background-color: #180ab1;
+    background-color: #e8ebe0d3;
     text-align: center;
     text-decoration: none;
     display: inline;
     transition-duration: 1.5s;
-    color:#e5e7eb;
+    color:#5210ecc2;
     margin: 1rem;
     border-radius: 10%;
     width: 100%;
